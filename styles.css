@@ -10,10 +10,10 @@ body{
  h1{
     color: antiquewhite;
  }
-  .vid {
+ img {
     width: 100%;
     height: 100%;
-    position: absolute;
+    position: relative;
     object-fit: cover;
     z-index: -1;
   }
@@ -84,18 +84,4 @@ body{
   .card div a.btn:hover{
     border-color:#f39c12
   }
-  .card:before{
-    position:absolute;
-    content:'';
-    width:100px;
-    height:100px;
-    background: rgba(15, 232, 200, 0.3);
-    bottom:0;
-    right:0;
-    z-index:-1;
-    border-top-left-radius:100px;
-    transition:0.5s;
-  }
-  .card:hover:before{
-    transform:scale(10)
-  }
+ 
